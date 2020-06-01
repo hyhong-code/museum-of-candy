@@ -19,3 +19,22 @@ body {
     }
   }
 }
+
+#heading-group {
+  h1 {
+    font-weight: 100;
+    font-size: 4rem;
+
+    span {
+      color: red;
+    }
+  }
+}
+
+@media (max-width: 1400px) {
+  #heading-group {
+    h1 {
+      font-size: 2.5rem;
+    }
+  }
+}

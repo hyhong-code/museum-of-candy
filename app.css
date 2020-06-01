@@ -11,3 +11,13 @@ body {
     color: white; }
     #mainNavbar .nav-link:hover {
       color: #ea1c2c; }
+
+#heading-group h1 {
+  font-weight: 100;
+  font-size: 4rem; }
+  #heading-group h1 span {
+    color: red; }
+
+@media (max-width: 1400px) {
+  #heading-group h1 {
+    font-size: 2.5rem; } }
