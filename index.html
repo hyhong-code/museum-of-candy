@@ -85,7 +85,7 @@
           </div>
           <div class="col-md-6 text-center order-1 order-md-2">
             <div class="row justify-content-center">
-              <div class="col-10 col-lg-8 blurb">
+              <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
                 <h2>MUSEUM OF CANDY</h2>
                 <img
                   src="imgs/lolli_icon.png"
@@ -104,12 +104,9 @@
           </div>
         </div>
         <div class="row align-items-center content">
-          <div class="col-md-6 order-2 order-md-1">
-            <img src="imgs/milk.png" alt="milk" class="img-fluid" />
-          </div>
-          <div class="col-md-6 text-center order-1 order-md-2">
+          <div class="col-md-6 text-center">
             <div class="row justify-content-center">
-              <div class="col-10 col-lg-8 blurb">
+              <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
                 <h2>MUSEUM OF CANDY</h2>
                 <img
                   src="imgs/lolli_icon.png"
@@ -118,10 +115,38 @@
                 />
                 <p class="lead">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Tempore iusto qui nam ad officia laudantium suscipit atque,
-                  eos dolores distinctio sed similique asperiores voluptatibus
-                  numquam voluptates doloribus animi et sequi! Rem vero repellat
-                  neque odio sit voluptatibus perspiciatis odit suscipit.
+                  Dolore ducimus, earum neque, in amet consequatur aliquid saepe
+                  voluptatibus aperiam porro, consectetur corrupti quae
+                  reprehenderit. Reprehenderit consectetur tempore perferendis
+                  amet, quia illum velit nesciunt veniam dolor eius, quos
+                  itaque, ipsum cumque!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="imgs/gumball.png" alt="milk" class="img-fluid" />
+          </div>
+        </div>
+        <div class="row align-items-center content">
+          <div class="col-md-6 order-2 order-md-1">
+            <img src="imgs/sprinkles.png" alt="milk" class="img-fluid" />
+          </div>
+          <div class="col-md-6 text-center order-1 order-md-2">
+            <div class="row justify-content-center">
+              <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                <h2>MUSEUM OF CANDY</h2>
+                <img
+                  src="imgs/lolli_icon.png"
+                  alt="lolli"
+                  class="img-fluid d-none d-lg-inline"
+                />
+                <p class="lead">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Harum nisi voluptatem necessitatibus tempora veniam quisquam
+                  consequuntur ad rem animi eum ipsum explicabo voluptate
+                  repellat alias ex possimus vero eos iusto, doloribus voluptas
+                  unde commodi? Placeat cum beatae et voluptates a!
                 </p>
               </div>
             </div>
@@ -145,5 +170,14 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+    <script>
+      // alter navbar styling on scroll
+      $(function () {
+        $(document).scroll(function () {
+          const $nav = $("#mainNavbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
   </body>
 </html>
