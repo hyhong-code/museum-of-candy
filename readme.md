@@ -5,4 +5,4 @@
 [Click here to view live](https://hyhong-code.github.io/museum-of-candy/)
 
 ![preview1](previews/preview1.png)
-![preview2](previews/preview1.png)
+![preview2](previews/preview2.png)
